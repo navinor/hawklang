@@ -1,3 +1,6 @@
+[![Run on Repl.it](https://repl.it/badge/github/Warhawk947/hawklang)](https://repl.it/github/Warhawk947/hawklang)
+
+
 # Hawklang
 ## An esoteric language ~~copied~~ heavily inspired by [Excon](https://esolangs.org/wiki/EXCON)
 
