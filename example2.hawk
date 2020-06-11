@@ -1,0 +1,17 @@
+>/^///^:      Prints 'H' (01001000) (Note the beginning zero)
+>/^/^///^//^: Prints 'e' (01100101)
+>/^/^//^/^:.  Prints 'l' and saves it to cache (01101100)
+>,:+          Prints 'l' from cache and clears cache
+>!^///^:.     Prints 'o' and saves it to cache (01101111)
+>//^:         Prints ' ' (00100000)
+>!^////^:     Prints 'w' (01110111)
+>,:+          Prints 'o' from cache and clears cache
+>/^/^/^///^:  Prints 'r' (01110010)
+>/^/^//^/^:   Prints 'l' (01101100)
+>/^/^///^:    Prints 'd' (01100100)
+>//^/////^:   BANG (00100001)
+>////^//^:    Prints a newline (00001010)
+
+
+The following can also be written like this
+>/^///^:>/^/^///^//^:>/^/^//^/^:.>,:+>!^///^:.>//^:>!^////^:>,:+>/^/^/^///^:>/^/^//^/^:>/^/^///^:>//^/////^:>////^//^:

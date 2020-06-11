@@ -1,0 +1,13 @@
+'A' in binary is 01000001 so we need to flip the bits at position 1 and position 7
+
+>          First clear the pool (optional)
+/^         Move the pointer left one bit and flip that bit
+//////^    Move the pointer left six more bits and flip the last bit
+:>         Print out the pool (A) and clear the pool
+
+
+The following can also be written like this
+
+>/^//////^:>
+
+(That will also print 'A')
